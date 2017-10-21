@@ -12,10 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let appRouter = MainAssembly.instance
 
+    fileprivate func setWindowAndRootController() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .black
+        window?.makeKeyAndVisible()
+        setRoot()
+    }
+
+    fileprivate func setRoot() {
+        let navigation = appRouter.resolve(type: Navigation.self)
+        window?.rootViewController = navigation.navigationController
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setWindowAndRootController()
         return true
     }
 

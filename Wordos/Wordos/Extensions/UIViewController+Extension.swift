@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UIViewController.swift
 //  Wordos
 //
 //  Created by Lubos Lehota on 21/10/2017.
@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: BaseViewController {
-
+extension UIViewController {
+    static var name: String {
+        return String(describing: self)
+    }
 }
-
