@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainNavigationViewController.swift
 //  Wordos
 //
 //  Created by Lubos Lehota on 21/10/2017.
@@ -8,7 +8,4 @@
 
 import UIKit
 
-class ViewController: BaseViewController {
-
-}
-
+class MainNavigationViewController: UINavigationController {}

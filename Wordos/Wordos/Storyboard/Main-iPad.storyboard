@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="laN-3Q-Ht8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="1fc-1V-cyf">
             <objects>
-                <viewController id="laN-3Q-Ht8" customClass="ViewController" customModule="Wordos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="laN-3Q-Ht8" customClass="ViewController" customModule="Wordos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AWo-mm-jAp"/>
                         <viewControllerLayoutGuide type="bottom" id="xid-tA-WMC"/>
@@ -22,9 +22,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.17692057291666666" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Yn8-UC-oYJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OzG-yY-y8u" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Main Navigation View Controller-->
+        <scene sceneID="sAH-ic-VPX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AHA-mI-Nhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="MainNavigationViewController" id="Scl-Ni-7DO" customClass="MainNavigationViewController" customModule="Wordos" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ctg-Sv-gvg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="laN-3Q-Ht8" kind="relationship" relationship="rootViewController" id="UrE-XH-NGJ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-916" y="150"/>
         </scene>
     </scenes>
 </document>

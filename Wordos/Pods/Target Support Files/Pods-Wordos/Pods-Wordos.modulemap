@@ -1,0 +1,6 @@
+framework module Pods_Wordos {
+  umbrella header "Pods-Wordos-umbrella.h"
+
+  export *
+  module * { export * }
+}

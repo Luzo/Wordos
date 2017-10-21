@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7DD652CE17CEC9C1DB5CBD /* Pods_Wordos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823721B83181BBC18466BC23 /* Pods_Wordos.framework */; };
+		E87BE7981F9B4EE400CDC729 /* NavigationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BE7971F9B4EE400CDC729 /* NavigationAssembly.swift */; };
+		E87BE79A1F9B4EEF00CDC729 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BE7991F9B4EEF00CDC729 /* MainAssembly.swift */; };
+		E87BE79D1F9B514300CDC729 /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BE79C1F9B514300CDC729 /* ViewControllerAssembly.swift */; };
+		E886E3941F9B613400EC0F5F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886E3931F9B613400EC0F5F /* BaseViewController.swift */; };
+		E886E3961F9B657300EC0F5F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886E3951F9B657300EC0F5F /* UIViewController+Extension.swift */; };
+		E8D8C8AA1F9B5417002896AA /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D8C8A91F9B5417002896AA /* MainNavigationViewController.swift */; };
+		E8D8C8AC1F9B5DDD002896AA /* RoutableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D8C8AB1F9B5DDD002896AA /* RoutableUseCase.swift */; };
 		E8EEB79C1F9B3D5800ADBBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEB79B1F9B3D5800ADBBCC /* AppDelegate.swift */; };
 		E8EEB79E1F9B3D5800ADBBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEB79D1F9B3D5800ADBBCC /* ViewController.swift */; };
 		E8EEB7A11F9B3D5800ADBBCC /* Main-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB79F1F9B3D5800ADBBCC /* Main-iPhone.storyboard */; };
 		E8EEB7A31F9B3D5800ADBBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB7A21F9B3D5800ADBBCC /* Assets.xcassets */; };
 		E8EEB7A61F9B3D5800ADBBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB7A41F9B3D5800ADBBCC /* LaunchScreen.storyboard */; };
 		E8EEB7B71F9B3E0400ADBBCC /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB7B61F9B3E0400ADBBCC /* Main-iPad.storyboard */; };
+		E8EEB7B91F9B45EE00ADBBCC /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEB7B81F9B45EE00ADBBCC /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		823721B83181BBC18466BC23 /* Pods_Wordos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wordos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0983FCD87336EBB22422BC /* Pods-Wordos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wordos/Pods-Wordos.debug.xcconfig"; sourceTree = "<group>"; };
+		D4886F2C0819EE27892D3F4D /* Pods-Wordos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wordos/Pods-Wordos.release.xcconfig"; sourceTree = "<group>"; };
+		E87BE7971F9B4EE400CDC729 /* NavigationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAssembly.swift; sourceTree = "<group>"; };
+		E87BE7991F9B4EEF00CDC729 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		E87BE79C1F9B514300CDC729 /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAssembly.swift; sourceTree = "<group>"; };
+		E886E3931F9B613400EC0F5F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E886E3951F9B657300EC0F5F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E8D8C8A91F9B5417002896AA /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		E8D8C8AB1F9B5DDD002896AA /* RoutableUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutableUseCase.swift; sourceTree = "<group>"; };
 		E8EEB7981F9B3D5800ADBBCC /* Wordos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EEB79B1F9B3D5800ADBBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8EEB79D1F9B3D5800ADBBCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +43,7 @@
 		E8EEB7A51F9B3D5800ADBBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8EEB7A71F9B3D5800ADBBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EEB7B61F9B3E0400ADBBCC /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
+		E8EEB7B81F9B45EE00ADBBCC /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,15 +51,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7DD652CE17CEC9C1DB5CBD /* Pods_Wordos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EB057886ADF07A3910F3A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				823721B83181BBC18466BC23 /* Pods_Wordos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D609B60B041F0A029E7FCBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD0983FCD87336EBB22422BC /* Pods-Wordos.debug.xcconfig */,
+				D4886F2C0819EE27892D3F4D /* Pods-Wordos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E87BE79B1F9B513300CDC729 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E87BE79C1F9B514300CDC729 /* ViewControllerAssembly.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E886E3911F9B611200EC0F5F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E886E3921F9B612500EC0F5F /* Base Class */ = {
+			isa = PBXGroup;
+			children = (
+				E886E3931F9B613400EC0F5F /* BaseViewController.swift */,
+			);
+			path = "Base Class";
+			sourceTree = "<group>";
+		};
+		E8D8C8A81F9B53F6002896AA /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E8D8C8A91F9B5417002896AA /* MainNavigationViewController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
 		E8EEB78F1F9B3D5800ADBBCC = {
 			isa = PBXGroup;
 			children = (
+				5EB057886ADF07A3910F3A3A /* Frameworks */,
+				9D609B60B041F0A029E7FCBE /* Pods */,
 				E8EEB7991F9B3D5800ADBBCC /* Products */,
 				E8EEB79A1F9B3D5800ADBBCC /* Wordos */,
 			);
@@ -89,6 +160,9 @@
 		E8EEB7AF1F9B3D7200ADBBCC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E886E3921F9B612500EC0F5F /* Base Class */,
+				E8D8C8A81F9B53F6002896AA /* NavigationController */,
+				E886E3911F9B611200EC0F5F /* Protocol */,
 				E8EEB79D1F9B3D5800ADBBCC /* ViewController.swift */,
 			);
 			path = ViewController;
@@ -111,6 +185,7 @@
 		E8EEB7B21F9B3D8900ADBBCC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E886E3951F9B657300EC0F5F /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -118,6 +193,9 @@
 		E8EEB7B31F9B3D9600ADBBCC /* Injection */ = {
 			isa = PBXGroup;
 			children = (
+				E8EEB7BA1F9B46D800ADBBCC /* Navigation */,
+				E87BE79B1F9B513300CDC729 /* ViewController */,
+				E87BE7991F9B4EEF00CDC729 /* MainAssembly.swift */,
 			);
 			path = Injection;
 			sourceTree = "<group>";
@@ -125,6 +203,8 @@
 		E8EEB7B41F9B3DA300ADBBCC /* Routing */ = {
 			isa = PBXGroup;
 			children = (
+				E8EEB7B81F9B45EE00ADBBCC /* Navigation.swift */,
+				E8D8C8AB1F9B5DDD002896AA /* RoutableUseCase.swift */,
 			);
 			path = Routing;
 			sourceTree = "<group>";
@@ -139,6 +219,14 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		E8EEB7BA1F9B46D800ADBBCC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E87BE7971F9B4EE400CDC729 /* NavigationAssembly.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8EEB7AA1F9B3D5800ADBBCC /* Build configuration list for PBXNativeTarget "Wordos" */;
 			buildPhases = (
+				5C6D7490CB8CE2484A6B43B5 /* [CP] Check Pods Manifest.lock */,
 				E8EEB7941F9B3D5800ADBBCC /* Sources */,
 				E8EEB7951F9B3D5800ADBBCC /* Frameworks */,
 				E8EEB7961F9B3D5800ADBBCC /* Resources */,
+				D66A709323D9441E4E70CC3E /* [CP] Embed Pods Frameworks */,
+				FEFF88F233110E2A7DC0952D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,12 +299,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C6D7490CB8CE2484A6B43B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D66A709323D9441E4E70CC3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wordos/Pods-Wordos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFF88F233110E2A7DC0952D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wordos/Pods-Wordos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8EEB7941F9B3D5800ADBBCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D8C8AC1F9B5DDD002896AA /* RoutableUseCase.swift in Sources */,
+				E886E3961F9B657300EC0F5F /* UIViewController+Extension.swift in Sources */,
+				E886E3941F9B613400EC0F5F /* BaseViewController.swift in Sources */,
+				E8D8C8AA1F9B5417002896AA /* MainNavigationViewController.swift in Sources */,
+				E87BE7981F9B4EE400CDC729 /* NavigationAssembly.swift in Sources */,
+				E8EEB7B91F9B45EE00ADBBCC /* Navigation.swift in Sources */,
+				E87BE79A1F9B4EEF00CDC729 /* MainAssembly.swift in Sources */,
 				E8EEB79E1F9B3D5800ADBBCC /* ViewController.swift in Sources */,
+				E87BE79D1F9B514300CDC729 /* ViewControllerAssembly.swift in Sources */,
 				E8EEB79C1F9B3D5800ADBBCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,10 +486,12 @@
 		};
 		E8EEB7AB1F9B3D5800ADBBCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0983FCD87336EBB22422BC /* Pods-Wordos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LPLCZ2ALZ;
 				INFOPLIST_FILE = Wordos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lubos.lehota.Wordos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,10 +501,12 @@
 		};
 		E8EEB7AC1F9B3D5800ADBBCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4886F2C0819EE27892D3F4D /* Pods-Wordos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LPLCZ2ALZ;
 				INFOPLIST_FILE = Wordos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lubos.lehota.Wordos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
