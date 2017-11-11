@@ -11,8 +11,8 @@ import UIKit
 final class Navigation {
 
     var navigationController: UINavigationController?
-    private var visibleViewController: UIViewController? {
-        return navigationController?.visibleViewController ?? UIApplication.shared.keyWindow?.rootViewController
+    private weak var visibleViewController: UIViewController? {
+        return UIApplication.topViewController()
     }
 
     func initialize(navigationController: UINavigationController) {
@@ -28,7 +28,7 @@ final class Navigation {
     }
 
     func presentUseCase(useCase: RoutableUseCase, animated: Bool, completion: (() -> Void)? = nil) {
-        visibleViewController?.present(useCase.viewController, animated: true, completion: completion)
+        visibleViewController?.present(useCase.viewController, animated: true)
     }
 
     func dismissLastUseCase(animated: Bool, completion: (() -> Void)? = nil) {

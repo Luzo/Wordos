@@ -8,11 +8,11 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
-    var navigation: Navigation!
+class BaseViewController<ViewModel>: UIViewController {
+    var viewModel: ViewModel!
 
-    func initialize(navigation: Navigation) {
-        self.navigation = navigation
+    func initialize(viewModel:ViewModel) {
+        self.viewModel = viewModel
     }
 }
 

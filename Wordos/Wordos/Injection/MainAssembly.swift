@@ -14,7 +14,8 @@ final class MainAssembly {
     var assemblies: [Assembly] {
         return [
             ViewControllerAssembly(),
-            NavigationAssembly()
+            NavigationAssembly(),
+            ViewModelAssembly()
         ]
     }
 

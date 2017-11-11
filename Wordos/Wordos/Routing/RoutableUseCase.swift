@@ -15,7 +15,7 @@ enum RoutableUseCase {
         let assembly = MainAssembly.instance
 
         switch self {
-        case .homepage: return assembly.resolve(type: ViewController.self)
+        case .homepage: return assembly.resolve(type: HomepageViewController.self)
         }
     }
 }
