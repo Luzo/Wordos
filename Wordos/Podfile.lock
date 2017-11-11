@@ -1,16 +1,20 @@
 PODS:
   - Swinject (2.1.0)
+  - SwinjectAutoregistration (2.1.0):
+    - Swinject (~> 2.1)
   - SwinjectStoryboard (1.1.1):
     - Swinject (~> 2.0)
 
 DEPENDENCIES:
   - Swinject
+  - SwinjectAutoregistration (= 2.1.0)
   - SwinjectStoryboard
 
 SPEC CHECKSUMS:
   Swinject: 85e468ac75c5c2d234076f98c591d57d56bc64bc
+  SwinjectAutoregistration: 7d8ac2c23718c78286adf7590c6d0671b4ccc834
   SwinjectStoryboard: 4c71c25f312322844d39ee06f0f523db7b9b10a3
 
-PODFILE CHECKSUM: 4cb559e4f29d47573065c867b38193f93f242a0f
+PODFILE CHECKSUM: c51c0d85ff6979d924a5aff8dc798e5b03793fa4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1
