@@ -13,15 +13,19 @@
 		E87BE79D1F9B514300CDC729 /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BE79C1F9B514300CDC729 /* ViewControllerAssembly.swift */; };
 		E886E3941F9B613400EC0F5F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886E3931F9B613400EC0F5F /* BaseViewController.swift */; };
 		E886E3961F9B657300EC0F5F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886E3951F9B657300EC0F5F /* UIViewController+Extension.swift */; };
+		E886E39A1F9C789A00EC0F5F /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886E3991F9C789A00EC0F5F /* BaseViewModel.swift */; };
+		E886E39C1F9C790200EC0F5F /* HomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886E39B1F9C790200EC0F5F /* HomepageViewModel.swift */; };
+		E8D382BB1FB7207A00BA23FF /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D382BA1FB7207A00BA23FF /* UIApplication+Extension.swift */; };
 		E8D8C8AA1F9B5417002896AA /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D8C8A91F9B5417002896AA /* MainNavigationViewController.swift */; };
 		E8D8C8AC1F9B5DDD002896AA /* RoutableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D8C8AB1F9B5DDD002896AA /* RoutableUseCase.swift */; };
 		E8EEB79C1F9B3D5800ADBBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEB79B1F9B3D5800ADBBCC /* AppDelegate.swift */; };
-		E8EEB79E1F9B3D5800ADBBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEB79D1F9B3D5800ADBBCC /* ViewController.swift */; };
+		E8EEB79E1F9B3D5800ADBBCC /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEB79D1F9B3D5800ADBBCC /* HomepageViewController.swift */; };
 		E8EEB7A11F9B3D5800ADBBCC /* Main-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB79F1F9B3D5800ADBBCC /* Main-iPhone.storyboard */; };
 		E8EEB7A31F9B3D5800ADBBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB7A21F9B3D5800ADBBCC /* Assets.xcassets */; };
 		E8EEB7A61F9B3D5800ADBBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB7A41F9B3D5800ADBBCC /* LaunchScreen.storyboard */; };
 		E8EEB7B71F9B3E0400ADBBCC /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EEB7B61F9B3E0400ADBBCC /* Main-iPad.storyboard */; };
 		E8EEB7B91F9B45EE00ADBBCC /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEB7B81F9B45EE00ADBBCC /* Navigation.swift */; };
+		E8F1A87E1FB6FB8A003F1CDE /* ViewModelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1A87D1FB6FB8A003F1CDE /* ViewModelAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,17 +37,21 @@
 		E87BE79C1F9B514300CDC729 /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAssembly.swift; sourceTree = "<group>"; };
 		E886E3931F9B613400EC0F5F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E886E3951F9B657300EC0F5F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E886E3991F9C789A00EC0F5F /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = Wordos/Storyboard/BaseViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E886E39B1F9C790200EC0F5F /* HomepageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomepageViewModel.swift; path = Wordos/Storyboard/HomepageViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E8D382BA1FB7207A00BA23FF /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		E8D8C8A91F9B5417002896AA /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		E8D8C8AB1F9B5DDD002896AA /* RoutableUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutableUseCase.swift; sourceTree = "<group>"; };
 		E8EEB7981F9B3D5800ADBBCC /* Wordos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EEB79B1F9B3D5800ADBBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8EEB79D1F9B3D5800ADBBCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8EEB79D1F9B3D5800ADBBCC /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		E8EEB7A01F9B3D5800ADBBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-iPhone.storyboard"; sourceTree = "<group>"; };
 		E8EEB7A21F9B3D5800ADBBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8EEB7A51F9B3D5800ADBBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8EEB7A71F9B3D5800ADBBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EEB7B61F9B3E0400ADBBCC /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
 		E8EEB7B81F9B45EE00ADBBCC /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		E8F1A87D1FB6FB8A003F1CDE /* ViewModelAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModelAssembly.swift; path = ViewModel/ViewModelAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,13 @@
 			path = "Base Class";
 			sourceTree = "<group>";
 		};
+		E886E39D1F9C794200EC0F5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E8D8C8A81F9B53F6002896AA /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +142,7 @@
 		E8EEB79A1F9B3D5800ADBBCC /* Wordos */ = {
 			isa = PBXGroup;
 			children = (
+				E886E39D1F9C794200EC0F5F /* Controller */,
 				E8EEB7B21F9B3D8900ADBBCC /* Extensions */,
 				E8EEB7B31F9B3D9600ADBBCC /* Injection */,
 				E8EEB7AE1F9B3D6B00ADBBCC /* Model */,
@@ -146,6 +162,8 @@
 		E8EEB7AD1F9B3D6400ADBBCC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E886E3991F9C789A00EC0F5F /* BaseViewModel.swift */,
+				E886E39B1F9C790200EC0F5F /* HomepageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -163,7 +181,7 @@
 				E886E3921F9B612500EC0F5F /* Base Class */,
 				E8D8C8A81F9B53F6002896AA /* NavigationController */,
 				E886E3911F9B611200EC0F5F /* Protocol */,
-				E8EEB79D1F9B3D5800ADBBCC /* ViewController.swift */,
+				E8EEB79D1F9B3D5800ADBBCC /* HomepageViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -186,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				E886E3951F9B657300EC0F5F /* UIViewController+Extension.swift */,
+				E8D382BA1FB7207A00BA23FF /* UIApplication+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,6 +212,7 @@
 		E8EEB7B31F9B3D9600ADBBCC /* Injection */ = {
 			isa = PBXGroup;
 			children = (
+				E8F1A87C1FB6FB61003F1CDE /* ViewModel */,
 				E8EEB7BA1F9B46D800ADBBCC /* Navigation */,
 				E87BE79B1F9B513300CDC729 /* ViewController */,
 				E87BE7991F9B4EEF00CDC729 /* MainAssembly.swift */,
@@ -225,6 +245,14 @@
 				E87BE7971F9B4EE400CDC729 /* NavigationAssembly.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E8F1A87C1FB6FB61003F1CDE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E8F1A87D1FB6FB8A003F1CDE /* ViewModelAssembly.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,13 +334,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wordos-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D66A709323D9441E4E70CC3E /* [CP] Embed Pods Frameworks */ = {
@@ -321,9 +352,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wordos/Pods-Wordos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -353,13 +391,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D8C8AC1F9B5DDD002896AA /* RoutableUseCase.swift in Sources */,
+				E886E39A1F9C789A00EC0F5F /* BaseViewModel.swift in Sources */,
+				E8F1A87E1FB6FB8A003F1CDE /* ViewModelAssembly.swift in Sources */,
 				E886E3961F9B657300EC0F5F /* UIViewController+Extension.swift in Sources */,
 				E886E3941F9B613400EC0F5F /* BaseViewController.swift in Sources */,
+				E886E39C1F9C790200EC0F5F /* HomepageViewModel.swift in Sources */,
+				E8D382BB1FB7207A00BA23FF /* UIApplication+Extension.swift in Sources */,
 				E8D8C8AA1F9B5417002896AA /* MainNavigationViewController.swift in Sources */,
 				E87BE7981F9B4EE400CDC729 /* NavigationAssembly.swift in Sources */,
 				E8EEB7B91F9B45EE00ADBBCC /* Navigation.swift in Sources */,
 				E87BE79A1F9B4EEF00CDC729 /* MainAssembly.swift in Sources */,
-				E8EEB79E1F9B3D5800ADBBCC /* ViewController.swift in Sources */,
+				E8EEB79E1F9B3D5800ADBBCC /* HomepageViewController.swift in Sources */,
 				E87BE79D1F9B514300CDC729 /* ViewControllerAssembly.swift in Sources */,
 				E8EEB79C1F9B3D5800ADBBCC /* AppDelegate.swift in Sources */,
 			);

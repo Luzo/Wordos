@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Homepage View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Wordos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomepageViewController" id="BYZ-38-t0r" customClass="HomepageViewController" customModule="Wordos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,17 +20,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VcV-Io-MMT">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nextVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tlp-Hm-EpY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPI-sN-6cc">
+                                <rect key="frame" x="164" y="377" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jXa-fe-tOk"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.13826497395833334" blue="0.2314181857638889" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VcV-Io-MMT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KDP-sQ-lWA"/>
+                            <constraint firstItem="VcV-Io-MMT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WTH-Ic-Z7g"/>
+                            <constraint firstItem="SPI-sN-6cc" firstAttribute="top" secondItem="VcV-Io-MMT" secondAttribute="bottom" constant="29" id="hdE-n0-ioc"/>
+                            <constraint firstItem="SPI-sN-6cc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nTB-gk-YgW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4Gx-jB-zAA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="38.23088455772114"/>
         </scene>
         <!--Main Navigation View Controller-->
         <scene sceneID="b8q-5L-NKL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OIl-Pv-Wro" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="MainNavigationViewController" id="gaL-da-jeC" customClass="MainNavigationViewController" customModule="Wordos" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SBP-pK-YhL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -40,6 +62,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="HhB-NX-Dzs"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIl-Pv-Wro" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-916" y="37"/>
         </scene>

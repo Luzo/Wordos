@@ -8,6 +8,7 @@
 
 import Swinject
 import SwinjectStoryboard
+import SwinjectAutoregistration
 
 class ViewControllerAssembly: Assembly {
 
@@ -29,8 +30,10 @@ class ViewControllerAssembly: Assembly {
     func assemble(container: Container) {
         Container.loggingFunction = nil
 
-        container.storyboardInitCompleted(ViewController.self) { r, vc in
-            vc.initialize(navigation: r.resolve(Navigation.self)!)
+        container.storyboardInitCompleted(HomepageViewController.self) { r, vc in
+            vc.initialize(
+                viewModel: r ~> (HomepageViewModelDelegate.self)
+            )
         }
 
         container.register(MainNavigationViewController.self) { _ in
@@ -39,10 +42,14 @@ class ViewControllerAssembly: Assembly {
             ) as! MainNavigationViewController
         }
 
-        container.register(ViewController.self) { _ in
+        container.register(HomepageViewController.self) { _ in
             return self.storyboard(container: container).instantiateViewController(
-                withIdentifier: ViewController.name
-            ) as! ViewController
+                withIdentifier: HomepageViewController.name
+            ) as! HomepageViewController
+        }.initCompleted { (r, vc) in
+            if vc.viewModel == nil {
+                vc.initialize(viewModel: r.resolve(HomepageViewModelDelegate.self)!)
+            }
         }
     }
 }
