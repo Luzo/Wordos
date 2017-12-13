@@ -32,7 +32,7 @@ class ViewControllerAssembly: Assembly {
 
         container.storyboardInitCompleted(HomepageViewController.self) { r, vc in
             vc.initialize(
-                viewModel: r ~> (HomepageViewModelDelegate.self, argument: 3)
+                viewModel: r ~> (HomepageViewModelDelegate.self)
             )
         }
 
@@ -46,6 +46,10 @@ class ViewControllerAssembly: Assembly {
             return self.storyboard(container: container).instantiateViewController(
                 withIdentifier: HomepageViewController.name
             ) as! HomepageViewController
+        }.initCompleted { (r, vc) in
+            if vc.viewModel == nil {
+                vc.initialize(viewModel: r.resolve(HomepageViewModelDelegate.self)!)
+            }
         }
     }
 }

@@ -23,7 +23,7 @@ final class HomepageViewController: BaseViewController<HomepageViewModelDelegate
     }
 
     deinit {
-        print("deal HPVC")
+        print("deal HPVC: \(self)")
     }
 }
 

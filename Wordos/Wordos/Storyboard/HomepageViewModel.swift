@@ -13,12 +13,12 @@ protocol HomepageViewModelDelegate {
     func dismissTapped()
 }
 
-final class HomepageViewModel: BaseViewModel, HomepageViewModelDelegate {
+final class HomepageViewModel: BaseViewModel<HomepageViewController>, HomepageViewModelDelegate {
 
     fileprivate let navigation: Navigation
     fileprivate let timestamp: Date
 
-    init(navigation: Navigation, view: Int) {
+    init(navigation: Navigation, view: HomepageViewController) {
         self.navigation = navigation
         timestamp = Date()
 
@@ -26,7 +26,6 @@ final class HomepageViewModel: BaseViewModel, HomepageViewModelDelegate {
     }
 
     func routeToNext() {
-        print(view)
         navigation.presentUseCase(useCase: .homepage, animated: true)
     }
 
@@ -35,6 +34,6 @@ final class HomepageViewModel: BaseViewModel, HomepageViewModelDelegate {
     }
 
     deinit {
-        print("deal HPVM")
+        print("deal HPVM: \(self)")
     }
 }

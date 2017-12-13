@@ -15,7 +15,6 @@ class ViewModelAssembly: Assembly {
 
         container.autoregister(
             HomepageViewModelDelegate.self,
-            argument: Int.self,
             initializer: HomepageViewModel.init(navigation:view:)
         )
     }

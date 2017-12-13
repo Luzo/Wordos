@@ -6,10 +6,10 @@
 //  Copyright © 2017 LubosLehota. All rights reserved.
 //
 
-class BaseViewModel {
-    var view: Int?
+class BaseViewModel<View> {
+    var view: View?
 
-    init(view: Int) {
+    init(view: View) {
         self.view = view
     }
 }
